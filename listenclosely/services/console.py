@@ -11,7 +11,7 @@ class ConsoleMessageService(BaseMessageServiceBackend):
         super(ConsoleMessageService, self).__init__(caller, *args, **kwargs)
     
     def write_message(self, message):
-        print message
+        print(message)
     
     def send_message(self, id_service, content):
         """Write all messages to the stream in a thread-safe way."""
