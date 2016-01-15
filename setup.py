@@ -11,8 +11,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = listenclosely.__version__
-
 if sys.argv[-1] == 'publish':
     try:
         import wheel
@@ -34,7 +32,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='listenclosely',
-    version=version,
+    version='0.1.0',
     description="""Listenclosely is a django-app that works as a middle man to connect instant messaging 
     clients.""",
     long_description=readme + '\n\n' + history,
