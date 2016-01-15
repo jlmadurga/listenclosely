@@ -14,7 +14,7 @@ class DummyMessageService(BaseMessageServiceBackend):
         pass
     
     def _message_id(self):
-        return ''.join(random.choice(string.lowercase) for i in range(10))
+        return ''.join(random.choice(string.ascii_lowercase) for i in range(10))
 
     def send_message(self, id_service, content):
         msg_id = self._message_id()  
