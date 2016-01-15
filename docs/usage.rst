@@ -40,6 +40,15 @@ Call listen task or define a celery scheduler to execute::
 	
 **NOTE:** listenclosely comes with a demo with celery configuration example. 
 
+How it works
+---------------
+
+.. image:: imgs/diagram.png
+
+* Asker1 is chatting with the Busy Agent
+* Asker2 try to chat but no free Agent was free so is waiting with a Pending chat to be attended by an agent
+* Asker3 is opening a chat and Online Agent will be assigned to the chat
+
 State machines of *Agent* and *Chat*:
 
 .. image:: imgs/agent_transitions.png

@@ -35,17 +35,27 @@ using instant messaging... exactly what it does.
 
  * It is flexible, so you can define your own strategies to assign *Agents* to *Askers* and your own messaging backend services.
  
+
+ 
 Messaging Services integrated:
 
- * Whatsapp
+ * Whatsapp https://github.com/jlmadurga/listenclosely-whatsapp
  
- * Telegram
+ * Telegram https://github.com/jlmadurga/listenclosely-telegram
 
 Documentation
 -------------
 
 The full documentation is at https://listenclosely.readthedocs.org.
 
+.. image:: https://raw.github.com/jlmadurga/listenclosely/master/docs/imgs/diagram.png
+        :target: https://listenclosely.readthedocs.org
+        
+* Asker1 is chatting with the Busy Agent
+* Asker2 try to chat but no free Agent was free so is waiting with a Pending chat to be attended by an agent
+* Asker3 is opening a chat and Online Agent will be assigned to the chat
+
+	
 Quickstart
 ----------
 
