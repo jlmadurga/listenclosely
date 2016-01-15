@@ -55,4 +55,4 @@ sdist: clean
 	ls -l dist
 	
 travis: lint
-	coverage run --source yowsup_celery setup.py test
+	coverage run --source listenclosely setup.py test
