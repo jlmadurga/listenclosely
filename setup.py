@@ -32,7 +32,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='listenclosely',
-    version='0.1.1',
+    version='0.1.2',
     description="""Listenclosely is a django-app that works as a middle man to connect instant messaging 
     clients.""",
     long_description=readme + '\n\n' + history,
