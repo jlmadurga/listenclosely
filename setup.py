@@ -46,7 +46,7 @@ setup(
     install_requires=[
         'django>=1.8',
         'django-fsm==2.3.0',
-        'celery==3.1.19',
+        'celery==5.2.2',
         'gevent==1.0.2'
     ],
     license="BSD",
